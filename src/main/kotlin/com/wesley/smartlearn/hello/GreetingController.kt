@@ -1,6 +1,6 @@
-package com.wesley.smartlearn.controllers
+package com.wesley.smartlearn.hello
 
-import com.wesley.hello.Greeting
+import com.wesley.smartlearn.hello.Greeting
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController

@@ -15,4 +15,13 @@ class InMemoryUserRepositoryTest {
         assertThat(createdUser).isEqualTo(expectedUser)
     }
 
+    @Test
+    fun get() {
+        val repo = InMemoryUserRepository()
+        val createdUser = repo.create(User(null, "Alex", "Silva", LocalDate.parse("1990-01-01")))
+        val expectedUser = repo.get(createdUser.id!!)
+
+        assertThat(createdUser).isEqualTo(expectedUser)
+    }
+
 }

@@ -13,4 +13,8 @@ class InMemoryUserRepository(var idUser: Long = 1L, var listUser: HashMap<Long, 
         return user
     }
 
+    override fun get(id: Long): User {
+        return listUser[id]!!
+    }
+
 }

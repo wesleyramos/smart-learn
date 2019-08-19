@@ -9,4 +9,5 @@ class User(var id: Long? = null, var name: String, var lastName: String, var dat
             return false
         return id == other.id && name == other.name && lastName == other.lastName && dateOfBirth == other.dateOfBirth
     }
+
 }

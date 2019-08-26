@@ -1,4 +1,4 @@
-package com.wesley.smartlearn.components.students
+package com.wesley.smartlearn.components.users
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
